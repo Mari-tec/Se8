@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="estis8.css">
+
+</head>
+<body background="b.jpg" onload="eje()">
+<div class="cua" id="mov" onmousedown="clico(event)"></div>
+
+<script>
+	function eje(){
+	var nx=Math.floor((Math.random() * (999-1))+1);
+	var ny=Math.floor((Math.random() * (480-1))+1);
+	mov.style.left=nx+"px"
+	mov.style.top=ny+"px"
+    }
+
+    function clico(event){
+	var nx = Math.floor((Math.random() * (999-1))+1);
+	var ny = Math.floor((Math.random() * (480-1))+1);
+	mov.style.left=nx+"px"
+	mov.style.top=ny+"px"
+    }
+</script>
+
+
+</body>
+</html>
